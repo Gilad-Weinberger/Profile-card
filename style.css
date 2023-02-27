@@ -1,0 +1,76 @@
+body{
+    background: url("tools/images/bg-pattern-top.svg"), url('tools/images/bg-pattern-bottom.svg'), hsl(185, 75%, 39%);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 1300px bottom 200px, left 1300px top 200px;
+    font-family: 'Kumbh Sans', sans-serif;;
+}
+.container{
+    background-color: white;
+    width: 340px;
+    height: 370px;
+    margin-top: 250px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);;
+}
+.up{
+    background-image: url('tools/images/bg-pattern-card.svg');
+    height: 140px;
+    border-radius: 15px 15px 0px 0px;
+}
+.middle{
+    border-bottom: 0.05px solid hsl(0, 0%, 59%);
+}
+.avatar{
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: -50px;
+    margin-bottom: 0px;
+}
+.details{
+    margin-bottom: -15px;
+}
+.name{
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.age{
+    color: hsl(0, 0%, 59%);
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    text-align: left;
+}
+.residence{
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    font-size: 13px;
+    margin-bottom: 28px;
+}
+.down{
+    display: flex;
+    flex-direction: columns;
+    align-items: flex-start;
+}
+.follows{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.likes{
+    margin-right: 55px;
+    margin-top: 10px;
+}
+.photos{
+    margin-top: 10px;
+}
+.number{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: -10px;
+}
+.detail{
+    color: hsl(0, 0%, 59%);
+    font-size: 12px;
+    font-weight: 400;
+}
